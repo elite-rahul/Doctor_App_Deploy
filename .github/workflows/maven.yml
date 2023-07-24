@@ -29,4 +29,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file ./DoctorAPP/pom.xml
     - name: Execute Jar file
-      run: sudo kill -9 `sudo lsof -t -i:8080` &  sudo java -jar /home/ubuntu/actions-runner/_work/Doctor_App_Deploy/Doctor_App_Deploy/DoctorAPP/targetDoctor_App_Deploy/Doctor_App_Deploy/DoctorAPP/targetDoctor_App_Deploy/Doctor_App_Deploy/DoctorAPP/targetDoctorAPP-0.0.1-SNAPSHOT.jar$
+      run: sudo kill -9 `sudo lsof -t -i:8080` &  sudo java -jar /home/ubuntu/actions-runner/_work/_work/Doctor_App_Deploy/Doctor_App_Deploy/DoctorAPP/target/DoctorAPP-0.0.1-SNAPSHOT.jar &
